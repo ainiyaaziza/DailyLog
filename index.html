@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Work Log</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">Daily Work Log</div>
+        <div class="header" id="london-time"></div>
+
+        <div class="note-section">
+            <div class="report-box" id="report1-box">
+                <button class="copy-btn" onclick="copyReport('report1-box')">Copy</button>
+                <div class="sub-heading"><strong>CLOCK-IN<strong></div>
+                <div class="report-text" id="report1-text">
+                    <p><strong>ألسلام عليكم ورحمة الله وبركاته</strong></p>
+                    <p><strong>I’m starting a shift at:</strong> [Time will be inserted here] UK time</p>
+                </div>
+            </div>
+            <div class="report-box" id="report2-box">
+                <button class="copy-btn" onclick="copyReport('report2-box')">Copy</button>
+                <div class="sub-heading"><strong>CLOCK-OUT</strong></div>
+                <div class="report-text" id="report2-text">
+                    <p><strong>ألسلام عليكم ورحمة الله وبركاته</strong></p>
+                    <p><strong>I have finished the shift at:</strong> [Time will be inserted here] UK time</p>
+                    <p><strong>Summary of the day:</strong></p>
+                    <ul>
+                        <li>*Total number of Chats:*</li>
+                        <li>*Total number of Quality Chats:*</li>
+                        <li>*Total number of Shahadas:*</li>
+                        <li>*Total number of Comments:*</li>
+                        <li>*Total number of Backlogs:*</li>
+                    </ul>
+                    <p>Google form updated</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Have a great day.
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
